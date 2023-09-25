@@ -1,10 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap");
 
-* {
-    font-family: "JetBrains Mono", monospace;
-}
-
 body {
+    font-family: "JetBrains Mono", monospace;
     background-color: #2f2f2f;
     display: flex;
     flex-direction: column;
@@ -45,6 +42,7 @@ body {
 }
 
 .button {
+    font-family: inherit;
     border: none;
     color: #2f2f2f;
     font-size: 150%;
