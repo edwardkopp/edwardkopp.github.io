@@ -17,7 +17,7 @@ body {
 }
 
 .text {
-    color: #dfdfdf;
+    color: #bfbfbf;
     font-size: 150%;
 }
 
@@ -52,12 +52,8 @@ body {
 }
 
 .button:hover {
-    background: #8f8f8f;
+    background: #bfbfbf;
     cursor: pointer;
-}
-
-.button:active {
-    background: #dfdfdf;
 }
 
 .button-spacing {
