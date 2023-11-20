@@ -21,30 +21,11 @@ body {
     font-size: 150%;
 }
 
-.red-background {
-    background: #ff595e;
-}
-
-.yellow-background {
-    background: #ffca3a;
-}
-
-.green-background {
-    background: #8ac926;
-}
-
-.blue-background {
-    background: #1982c4;
-}
-
-.purple-background {
-    background: #785c9d;
-}
-
 .button {
     font-family: inherit;
     border: none;
     color: #2f2f2f;
+    background: #ffca3a;
     font-size: 150%;
     padding-block: 20px;
     width: 100vw;
