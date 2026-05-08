@@ -18,7 +18,6 @@
 
 <style>
   a {
-    font-family: sans-serif;
     color: var(--color-override, cornflowerblue);
     transition: color 300ms ease;
     display: inline-flex;
