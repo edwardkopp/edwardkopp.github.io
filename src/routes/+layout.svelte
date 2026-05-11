@@ -34,11 +34,11 @@
 	<a class="logo" href="/">
 		<span>edwardkopp</span>
 	</a>
-	<nav class="top-nav">
-		<NavIcon href="mailto:{emailLink}" target="_blank" accent="#6d4aff">
+	<nav style="display:inline-flex">
+		<NavIcon href="mailto:{emailLink}" accent="#6d4aff">
 			<i class="ri-mail-fill"></i>
 		</NavIcon>
-		<NavIcon href="https://github.com/edwardkopp" target="_blank" accent="#0fbf3e">
+		<NavIcon href="https://github.com/edwardkopp" accent="#0fbf3e">
 			<i class="ri-github-fill"></i>
 		</NavIcon>
 	</nav>
@@ -71,6 +71,12 @@
 		margin: 0.25rem;
 		padding-block: 0.5rem;
 		margin-inline-end: 0.5rem;
+		transition: text-shadow 150ms ease-in-out;
+	}
+	.logo:hover {
+		text-shadow:
+			0 0 1rem var(--main-color),
+			0 0 2rem var(--main-color);
 	}
 	header {
 		position: fixed;
@@ -119,9 +125,10 @@
 	}
 	ul {
 		padding: 0;
+		display: flex;
 	}
 	li {
 		margin-inline: 1rem;
-		display: inline-block;
+		display: inline;
 	}
 </style>

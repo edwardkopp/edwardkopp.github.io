@@ -19,7 +19,7 @@
 <style>
   a {
     color: var(--color-override, cornflowerblue);
-    transition: color 300ms ease;
+    transition: color 300ms ease-in-out;
     display: inline-flex;
     text-decoration: none;
     align-items: center;
