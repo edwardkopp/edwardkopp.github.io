@@ -1,0 +1,27 @@
+<script>
+  import Link from "$lib/components/Link.svelte"
+</script>
+
+
+<div style="text-align: center;">
+  <h1>Hello.<br>I'm Edward Kopp.</h1>
+  <nav>
+    <ul style="margin-block: 0">
+      <li>
+        <Link href="/uses">Stuff I Use</Link>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
+<style>
+  ul {
+    padding: 0;
+    display: inline-flex;
+  }
+  li {
+    margin-inline: 1rem;
+    display: inline;
+  }
+</style>
