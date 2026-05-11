@@ -51,6 +51,12 @@
 		<nav>
 			<ul>
 				<li>
+					<Link href="/" color="#6f6f6f">Home</Link>
+				</li>
+				<li>
+					<Link href="/privacy" color="#6f6f6f">Privacy</Link>
+				</li>
+				<li>
 					<Link href="https://github.com/edwardkopp/edwardkopp.github.io" color="#6f6f6f">Source Code</Link>
 				</li>
 			</ul>

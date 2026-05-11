@@ -1,0 +1,69 @@
+# Privacy Policy
+
+*Last updated: May 11, 2026*
+
+Welcome to my website, `edwardkopp.com` ("this website").
+
+This website is my personal website. It is a static website, and hosted using GitHub Pages.
+
+## Information Collected Automatically
+
+Like most websites, the hosting provider, GitHub in this case, and the underlying network infrastructure
+may process information such as IP addresses, browser details, and request logs in order to deliver this website
+and maintain security and reliability. I do not control or necessarily have visibility into such processing.
+Please read the
+[GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+and the [GitHub Pages Documentation](https://docs.github.com/en/pages) for more information.
+
+## Site Design And Third-Party Resources
+
+This website is designed to be a simple static site.
+
+To the best of my knowledge, this website itself does not intentionally use cookies,
+use analytics or visitor tracking tools, serve advertising, or load fonts, JavaScript, CSS,
+or other assets hosted elsewhere, from external content delivery networks, or from third-party services.
+However, as this website is hosted by a third party, GitHub, and delivered over the internet through
+third-party infrastructure, I cannot guarantee the absence of such functionality.
+
+## Email Communications
+
+If you choose to contact me by email, I will receive:
+
+- Your email address
+- Any information you include in your message
+- Any metadata normally included with email communications
+
+I will generally use this information only to read, respond to, and maintain correspondence related to your message.
+However, I reserve the right to retain, disclose, or report email communications where I reasonably believe doing so
+is necessary to comply with applicable law, legal process, contractual obligations, service provider requirements, or
+platform policies; to protect my rights or safety; to investigate abuse, harassment, threats, spam, or unlawful activity;
+or to cooperate with law enforcement or relevant authorities.
+
+By sending an email to me, you acknowledge that I may respond at my discretion, and that I am not obligated to respond.
+
+Please avoid sending sensitive personal information by email, as email may not always be secure in transit or storage.
+
+### Unsolicited Suggestions
+
+If you communicate ideas, suggestions, or other unsolicited content, you agree that I may use them freely without
+obligation to compensate, acknowledge, or respond to them. No confidential relationship is formed by sending
+such material.
+
+### Email Retention
+
+Emails and correspondence may be retained for as long as reasonably necessary to maintain communication records,
+respond to inquiries, or protect against abuse.
+
+## Third-Party Links
+
+This website contains links to external websites.
+I am not responsible for the privacy practices or content of third-party sites.
+
+## Changes To This Policy
+
+This Privacy Policy may change from time to time. Any changes will be posted on this page.
+
+## Contact
+
+If you have any questions about this Privacy Policy,
+there is a button in the website header you can use to contact me by email.
