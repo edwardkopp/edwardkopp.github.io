@@ -24,7 +24,7 @@
 	"dependencies": {
 		"@fontsource-variable/fira-code": "^5.2.7",
 		"@fontsource-variable/noto-sans": "^5.2.10",
-		"@fontsource-variable/playfair-display": "^5.2.8",
+		"@fontsource-variable/noto-serif": "^5.2.9",
 		"prismjs": "^1.30.0",
 		"remixicon": "^4.9.1"
 	}

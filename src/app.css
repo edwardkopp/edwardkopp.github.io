@@ -1,7 +1,7 @@
 @import "prismjs/themes/prism-tomorrow.css";
 
 @import "@fontsource-variable/fira-code/wght.css";
-@import "@fontsource-variable/playfair-display/wght.css";
+@import "@fontsource-variable/noto-serif/wght.css";
 @import "@fontsource-variable/noto-sans/wght.css";
 
 @import "remixicon/fonts/remixicon.css";
@@ -24,7 +24,7 @@ body {
   line-height: 1.5;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display Variable", serif;
+  font-family: "Noto Serif Variable", serif;
   font-weight: bold;
   margin-block: 1rem;
 }
