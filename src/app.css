@@ -50,18 +50,18 @@ p, ul{
   margin-block: 1rem;
 }
 code {
-  font-family: "Fira Code Variable", monospace;
+  font-family: "Fira Code Variable", monospace !important;
+  font-size: 0.9rem !important;
   background-color: var(--code-background-color);
-  padding-inline: 0.2rem;
+  padding: 0.2rem;
   border-radius: 0.2rem;
 }
 pre {
+  margin-block: 1rem !important;
+  padding-block: 1rem !important;
   border-radius: 1rem;
-  background-color: var(--code-background-color);
+  background-color: var(--code-background-color) !important;
   overflow-x: auto;
-}
-pre[class*="language-"] {
-  background-color: var(--code-background-color);
 }
 pre code {
   padding-inline: 0;
