@@ -1,3 +1,8 @@
+<svelte:head>
+  <title>Privacy Policy - Edward Kopp</title>
+</svelte:head>
+
+
 # Privacy Policy
 
 *Last updated: May 11, 2026*

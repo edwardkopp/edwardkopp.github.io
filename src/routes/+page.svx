@@ -3,8 +3,16 @@
 </script>
 
 
+<svelte:head>
+  <title>Edward Kopp</title>
+</svelte:head>
+
+
 <div style="text-align: center;">
   <h1>Hello.<br>I'm Edward Kopp.</h1>
+  <p>
+    Welcome to my website!
+  </p>
   <nav>
     <ul style="margin-block: 0">
       <li>

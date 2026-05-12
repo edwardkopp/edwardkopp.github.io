@@ -1,3 +1,8 @@
+<svelte:head>
+  <title>Stuff I Use - Edward Kopp</title>
+</svelte:head>
+
+
 # Stuff I Use
 
 *Last updated: May 12, 2026*
