@@ -104,7 +104,7 @@
 		);
 	}
 	.content {
-		max-width: 50rem;
+		max-width: 40rem;
 		margin: 0 auto;
 		padding: 1rem;
 		padding-block-start: 0;
