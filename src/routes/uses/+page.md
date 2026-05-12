@@ -13,7 +13,7 @@ As such, I will try to keep this page updated.
 - [Fedora KDE](https://fedoraproject.org/kde/) &mdash; Desktop OS
   - Enabled [RPM Fusion](https://rpmfusion.org/)
 ```shell
-# After enabling RPM Fusion, install for more codecs 
+# After enabling RPM Fusion... 
 dnf install libavcodec-freeworld
 ```
 - [QMK Firmware](https://qmk.fm/) &mdash; Keyboard firmware
