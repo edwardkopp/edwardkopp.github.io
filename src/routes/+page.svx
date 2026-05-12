@@ -8,6 +8,9 @@
   <nav>
     <ul style="margin-block: 0">
       <li>
+        <Link href="/about">About Me</Link>
+      </li>
+      <li>
         <Link href="/uses">Stuff I Use</Link>
       </li>
     </ul>
