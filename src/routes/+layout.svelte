@@ -124,7 +124,7 @@
 		padding-block-start: 4rem;
 	}
 	footer {
-		color: #6f6f6f;
+		color: var(--less-color);
 		margin-top: auto;
 		padding-block-start: 3rem;
 		align-items: center;
