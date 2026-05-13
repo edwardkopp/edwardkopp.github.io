@@ -48,6 +48,7 @@ h6 {
 }
 p, ul{
   margin-block: 1rem;
+  padding-inline-start: 1rem;
 }
 code {
   font-family: "Fira Code Variable", monospace !important;
