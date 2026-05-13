@@ -1,11 +1,8 @@
-<svelte:head>
-  <title>Stuff I Use - Edward Kopp</title>
-</svelte:head>
-
-
-# Stuff I Use
-
-*Last updated: May 12, 2026*
+---
+title: Stuff I Use
+description: My /uses page.
+date: May 12, 2026
+---
 
 This page is inspired by [uses.tech](https://uses.tech/). 
 

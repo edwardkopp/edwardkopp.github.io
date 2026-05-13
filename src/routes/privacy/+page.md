@@ -1,11 +1,8 @@
-<svelte:head>
-  <title>Privacy Policy - Edward Kopp</title>
-</svelte:head>
-
-
-# Privacy Policy
-
-*Last updated: May 11, 2026*
+---
+title: Privacy Policy
+description: My Privacy Policy for this personal website.
+date: May 11, 2026
+---
 
 Welcome to my website, `edwardkopp.com` ("this website").
 

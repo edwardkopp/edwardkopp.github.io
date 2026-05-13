@@ -1,11 +1,8 @@
-<svelte:head>
-  <title>About Me - Edward Kopp</title>
-</svelte:head>
-
-
-# About Me
-
-*Last updated: May 12, 2026*
+---
+title: About Me
+description: A little bit about me.
+date: May 12, 2026
+---
 
 Hello. I'm Edward Kopp. I'm a (mostly) self-taught developer. I like building client-side data encryption systems
 and cloud APIs using serverless technologies. Much of my experience has involved building cross-platform desktop
