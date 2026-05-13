@@ -36,10 +36,10 @@
 	</a>
 	<nav style="display:inline-flex">
 		<NavIcon href="mailto:{emailLink}" accent="#6d4aff">
-			<i class="ri-mail-fill"></i>
+			<span class="ri-mail-fill"></span>
 		</NavIcon>
 		<NavIcon href="https://github.com/edwardkopp" accent="#0fbf3e">
-			<i class="ri-github-fill"></i>
+			<span class="ri-github-fill"></span>
 		</NavIcon>
 	</nav>
 </header>

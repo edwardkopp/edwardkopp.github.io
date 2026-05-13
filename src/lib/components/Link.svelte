@@ -12,7 +12,7 @@
 >
   <span>{@render children()}</span>
   {#if isExternal}
-    <i class="ri-arrow-right-up-line"></i>
+    <span class="ri-arrow-right-up-line"></span>
   {/if}
 </a>
 
