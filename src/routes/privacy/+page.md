@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-description: My Privacy Policy for this personal website.
+description: The Privacy Policy for this personal website.
 date: May 11, 2026
 ---
 

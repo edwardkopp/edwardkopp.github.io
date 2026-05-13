@@ -1,6 +1,6 @@
 ---
 title: Stuff I Use
-description: My /uses page.
+description: Here is a list of some of the software and tools I use for software development.
 date: May 12, 2026
 ---
 

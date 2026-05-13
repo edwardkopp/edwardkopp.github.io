@@ -1,6 +1,5 @@
 ---
 title: About Me
-description: A little bit about me.
 date: May 12, 2026
 ---
 

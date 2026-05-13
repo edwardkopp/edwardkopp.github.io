@@ -5,7 +5,7 @@
 </script>
 
 <script>
-  let { children, title, description, date } = $props();
+  let { children, title, date, description } = $props();
 
   let fullTitle = $derived(title ? `${title} - Edward Kopp` : "Edward Kopp");
 </script>

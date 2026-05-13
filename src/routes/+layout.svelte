@@ -28,6 +28,10 @@
 <svelte:head>
 	<title>Edward Kopp</title>
 	<link rel="icon" href={favicon} />
+	<meta
+		name="description"
+		content="I'm a software developer with an interest in data encryption, and serverless technologies."
+	>
 </svelte:head>
 
 <header>
