@@ -1,12 +1,9 @@
 <script>
   import Link from "$lib/components/Link.svelte"
+  import SEO from "$lib/components/SEO.svelte"
 </script>
 
-
-<svelte:head>
-  <title>Edward Kopp</title>
-</svelte:head>
-
+<SEO/>
 
 <div style="text-align: center;">
   <h1>Hello.<br>I'm Edward Kopp.</h1>

@@ -1,21 +1,15 @@
 <script module>
   import Link from "$lib/components/Link.svelte";
+  import SEO from "$lib/components/SEO.svelte";
 
   export { Link as a };
 </script>
 
 <script>
   let { children, title, date, description } = $props();
-
-  let fullTitle = $derived(title ? `${title} - Edward Kopp` : "Edward Kopp");
 </script>
 
-<svelte:head>
-  <title>{fullTitle}</title>
-  {#if description}
-    <meta name="description" content={description}>
-  {/if}
-</svelte:head>
+<SEO {title} {description}/>
 
 {#if title}
   <h1>{title}</h1>

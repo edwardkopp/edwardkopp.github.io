@@ -1,11 +1,10 @@
 <script lang="ts">
-  import {page} from "$app/state";
+  import { page } from "$app/state";
   import Link from "$lib/components/Link.svelte";
+  import SEO from "$lib/components/SEO.svelte";
 </script>
 
-<svelte:head>
-  <title>{`${page.error?.message} - Edward Kopp`}</title>
-</svelte:head>
+<SEO title={page.error?.message} error={true}/>
 
 <div style="text-align: center;">
   <h1>{page.status} &mdash; {page.error?.message}</h1>

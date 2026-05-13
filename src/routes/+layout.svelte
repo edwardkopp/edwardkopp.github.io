@@ -1,5 +1,4 @@
 <script lang="ts">
-	import favicon from "$lib/assets/favicon.svg";
 	import NavIcon from "$lib/components/NavIcon.svelte";
 	import Link from "$lib/components/Link.svelte";
 	import "../app.css";
@@ -24,15 +23,6 @@
 	});
 
 </script>
-
-<svelte:head>
-	<title>Edward Kopp</title>
-	<link rel="icon" href={favicon} />
-	<meta
-		name="description"
-		content="I'm a software developer with an interest in data encryption, and serverless technologies."
-	>
-</svelte:head>
 
 <header>
 	<a class="logo" href="/">
