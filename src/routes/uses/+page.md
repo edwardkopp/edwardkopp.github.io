@@ -22,13 +22,7 @@ dnf install libavcodec-freeworld
 
 #### [QMK Firmware](https://qmk.fm/) &mdash; Keyboard firmware
 
-- I only install the CLI on Linux
-
-```shell
-curl -fsSL https://install.qmk.fm | sh
-```
-
-- My keymaps can be found [here](https://github.com/edwardkopp/qmk_userspace)
+- My keymaps and instructions can be found [here](https://github.com/edwardkopp/qmk_userspace)
 
 #### [Homebrew](https://brew.sh/) &mdash; macOS package manager
 
