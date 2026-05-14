@@ -1,7 +1,7 @@
 ---
 title: Stuff I Use
 description: Here is a list of some of the software and tools I use for software development.
-date: May 12, 2026
+date: May 14, 2026
 ---
 
 This page is inspired by [uses.tech](https://uses.tech/). 
@@ -22,7 +22,12 @@ dnf install libavcodec-freeworld
 
 #### [QMK Firmware](https://qmk.fm/) &mdash; Keyboard firmware
 
-- No need for mouse thanks to mouse keys
+- I only install the CLI on Linux
+
+```shell
+curl -fsSL https://install.qmk.fm | sh
+```
+
 - My keymaps can be found [here](https://github.com/edwardkopp/qmk_userspace)
 
 #### [Homebrew](https://brew.sh/) &mdash; macOS package manager
