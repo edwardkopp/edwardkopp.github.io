@@ -21,7 +21,6 @@
 
 		emailLink = `${new TextDecoder().decode(emailBytes)}`;
 	});
-
 </script>
 
 <header>

@@ -30,7 +30,6 @@ dnf install libavcodec-freeworld
 #### [LibreOffice](https://www.libreoffice.org/) &mdash; Office software
 
 ```shell
-# macOS
 brew install --cask libreoffice
 ```
 
