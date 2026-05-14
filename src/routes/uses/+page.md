@@ -6,14 +6,13 @@ date: May 14, 2026
 
 This page is inspired by [uses.tech](https://uses.tech/). 
 
-On one hand, this page showcases some of the things I use for development and how I use them.
-On the other hand, it serves as a reference in case I ever forget what I normally do.
-As such, I will try to keep this page updated.
+A list of some of the things I use, while also a reference for myself. I will try to keep this page updated.
 
 *If you're looking for what I used to create this website, see the [source code](https://github.com/edwardkopp/edwardkopp.github.io).*
 
 #### [Fedora KDE](https://fedoraproject.org/kde/) &mdash; Desktop OS
-- Enabled [RPM Fusion](https://rpmfusion.org/)
+
+[RPM Fusion](https://rpmfusion.org/) is enabled.
 
 ```shell
 # After enabling RPM Fusion... 
@@ -22,24 +21,41 @@ dnf install libavcodec-freeworld
 
 #### [QMK Firmware](https://qmk.fm/) &mdash; Keyboard firmware
 
-- My keymaps and instructions can be found [here](https://github.com/edwardkopp/qmk_userspace)
+My keymaps and instructions can be found [here](https://github.com/edwardkopp/qmk_userspace).
+
+#### [OpenTabletDriver](https://opentabletdriver.net/) &mdash; Drawing tablet driver
+
+I just download the RPM from their GitHub and click to install.
+
+```shell
+# After install...
+sudo dracut --regenerate-all --force
+
+# Check service afterwards
+systemctl --user status opentabletdriver.service
+# Enable if needed
+systemctl --user enable opentabletdriver.service --now
+```
+
+Updating is the same process.
 
 #### [Homebrew](https://brew.sh/) &mdash; macOS package manager
 
 #### [LibreOffice](https://www.libreoffice.org/) &mdash; Office software
 
 ```shell
+# macOS
 brew install --cask libreoffice
 ```
 
 #### [JetBrains](https://www.jetbrains.com/) &mdash; IDEs
 
-- [Rider Night](https://plugins.jetbrains.com/plugin/13883-rider-ui-theme-pack/) theme
-- RustRover uses the default Islands Dark theme instead
-- Disabled AI suggestions as I prefer classic completions
-- Disabled "double modifier key shortcuts" under "Advanced Settings" due to my QMK keymap
-- Unless otherwise noted, I let IDE install language SDKs
-- I let IDE install git if missing
+I normally use the [Rider Night](https://plugins.jetbrains.com/plugin/13883-rider-ui-theme-pack/) theme, except in RustRover where I use the default Islands Dark theme.
+
+AI suggestions are disabled as I prefer the classic completions.
+"Double modifier key shortcuts" under "Advanced Settings" are also disabled, but due to my QMK keymap.
+
+I let JetBrains install git if missing, and unless otherwise noted, I let them install language SDKs, too.
 
 ```shell
 # Run after git install
@@ -54,7 +70,7 @@ brew install --cask utm
 
 #### [Python](https://www.python.org/) &mdash; My preferred language
 
-- Install specific versions via `dnf` or `brew`; include Tkinter packages for making quick GUIs
+Specific versions installed via `dnf` or `brew`. Tkinter packages are also installed for making quick GUIs.
 
 #### [Fast Node Manager](https://github.com/Schniz/fnm) &mdash; Node.js version manager
 
@@ -70,11 +86,11 @@ brew install fnm  # see docs to manually configure after
 
 #### [Pulumi](https://github.com/pulumi/pulumi) &mdash; IaC (writing Python mostly)
 
-- Prefer exclusive use in CI/CD rather than local install
+I don't locally install this as I prefer exclusive use in CI/CD.
 
 #### [Zig](https://ziglang.org/) &mdash; Some tools/libraries expect this
 
-- Install Zig before dependents (such as cargo-lambda)
+Install this before any dependents (such as cargo-lambda).
 
 ```shell
 # Fedora
