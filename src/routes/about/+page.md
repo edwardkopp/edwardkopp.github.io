@@ -8,7 +8,7 @@ and cloud APIs using serverless technologies. Much of my experience has involved
 applications in Python that implement these kinds of systems.
 
 Recently, I've been exploring Rust to build more secure and efficient software while deepening my understanding
-of systems programming and application security. (And minimizing my serverless function cold start times!)
+of systems programming and application security (*and speeding up my serverless function cold starts*).
 
 Before learning to code, I worked in small-business IT managing both Linux and Windows systems.
 This experience sparked my interest in Linux, which I now use as my desktop OS.
