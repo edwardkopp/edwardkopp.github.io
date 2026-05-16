@@ -10,7 +10,7 @@
   --main-background-color: black;
   --code-background-color: #232323;
   --main-color: #bfbfbf;
-  --less-color: #6f6f6f;
+  --dim-color: #7f7f7f;
   background-color: var(--main-background-color);
   font-family: "Noto Sans Variable", sans-serif;
 }

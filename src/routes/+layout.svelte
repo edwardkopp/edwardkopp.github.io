@@ -51,7 +51,7 @@
 			<ul>
 				{#each footerLinks as link}
 					<li>
-						<Link href={link.href} color="var(--less-color)">{link.label}</Link>
+						<Link href={link.href} color="var(--dim-color)">{link.label}</Link>
 					</li>
 				{/each}
 			</ul>
@@ -119,7 +119,7 @@
 		padding-block-start: 4rem;
 	}
 	footer {
-		color: var(--less-color);
+		color: var(--dim-color);
 		margin-top: auto;
 		padding-block-start: 3rem;
 		align-items: center;

@@ -15,6 +15,6 @@
   <h1>{title}</h1>
 {/if}
 {#if date}
-  <p style="color: var(--less-color)">Last updated &mdash; {date}</p>
+  <p style="color: var(--dim-color)">Last updated &mdash; {date}</p>
 {/if}
 {@render children()}
