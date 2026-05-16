@@ -16,6 +16,7 @@
   {/if}
 </a>
 
+<!--suppress CssUnusedSymbol -->
 <style>
   a {
     color: var(--color-override, cornflowerblue);
@@ -25,7 +26,7 @@
     align-items: center;
   }
   a:hover {
-    color: color-mix(in srgb, var(--color-override, cornflowerblue) 50%, white);
+    color: var(--main-color);
   }
   a:active {
     color: var(--main-color)

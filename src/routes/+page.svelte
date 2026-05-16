@@ -11,7 +11,7 @@
     Welcome to my website!
   </p>
   <nav>
-    <ul style="margin-block: 0">
+    <ul style:margin-block="0">
       <li>
         <Link href="/about">About Me</Link>
       </li>

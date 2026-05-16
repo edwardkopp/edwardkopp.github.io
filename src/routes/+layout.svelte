@@ -7,6 +7,12 @@
 
 	let year = new Date().getFullYear();
 
+	const footerLinks = [
+		{ href: "/", label: "Home" },
+		{ href: "/", label: "Privacy" },
+		{ href: "https://github.com/edwardkopp/edwardkopp.github.io", label: "Source Code" }
+	]
+
 	// After this point is to stop low effort email spam
 	const encodedCiphertext = "pjT4m9xO8Y3fZTktkZpx7z/WYsuW";
 	const encodedKey = "w1CP+q4qsei7Elhf9fEen0/4AaT7";
@@ -43,15 +49,11 @@
 	<footer style="text-align: center;">
 		<nav>
 			<ul>
-				<li>
-					<Link href="/" color="#6f6f6f">Home</Link>
-				</li>
-				<li>
-					<Link href="/privacy" color="#6f6f6f">Privacy</Link>
-				</li>
-				<li>
-					<Link href="https://github.com/edwardkopp/edwardkopp.github.io" color="#6f6f6f">Source Code</Link>
-				</li>
+				{#each footerLinks as link}
+					<li>
+						<Link href={link.href} color="var(--less-color)">{link.label}</Link>
+					</li>
+				{/each}
 			</ul>
 		</nav>
 		<div style="padding-block-end: 1rem;">
