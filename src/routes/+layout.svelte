@@ -9,7 +9,7 @@
 
 	const footerLinks = [
 		{ href: "/", label: "Home" },
-		{ href: "/", label: "Privacy" },
+		{ href: "/privacy", label: "Privacy" },
 		{ href: "https://github.com/edwardkopp/edwardkopp.github.io", label: "Source Code" }
 	]
 
