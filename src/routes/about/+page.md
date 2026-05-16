@@ -1,6 +1,6 @@
 ---
 title: About Me
-date: May 12, 2026
+date: May 16, 2026
 ---
 
 Hello. I'm Edward Kopp. I'm a (mostly) self-taught developer. I like building client-side data encryption systems
