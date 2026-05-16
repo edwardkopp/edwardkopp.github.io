@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 description: The Privacy Policy for this personal website.
-date: May 11, 2026
+date: May 16, 2026
 ---
 
 Welcome to my website, `edwardkopp.com` ("this website").
@@ -44,6 +44,17 @@ or to cooperate with law enforcement or relevant authorities.
 By sending an email to me, you acknowledge that I may respond at my discretion, and that I am not obligated to respond.
 
 Please avoid sending sensitive personal information by email, as email may not always be secure in transit or storage.
+
+### Forwarding Emails
+
+I may forward emails to third-party individuals or services for assistance in understanding or responding to your message,
+or if I believe they are better suited to address your message.
+
+#### Translation Of Non-English Emails
+
+If you send an email in a language other than English, I may use third-party services,
+including but not limited to translation services, large-language models, or human translators, to translate or assist
+in understanding your message.
 
 ### Unsolicited Suggestions
 
