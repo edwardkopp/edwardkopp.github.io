@@ -1,7 +1,7 @@
 ---
 title: Stuff I Use
 description: Here is a list of some of the software and tools I use for software development.
-date: May 14, 2026
+date: May 19, 2026
 ---
 
 This page is inspired by [uses.tech](https://uses.tech/). 
@@ -19,9 +19,26 @@ A list of some of the things I use, while also a reference for myself. I will tr
 dnf install libavcodec-freeworld
 ```
 
-#### [QMK Firmware](https://qmk.fm/) &mdash; Keyboard firmware
+#### [QMK Firmware](https://qmk.fm/) &mdash; Firmware for dev keyboards
 
 My keymaps and instructions can be found [here](https://github.com/edwardkopp/qmk_userspace).
+
+#### [Wootility](https://wooting.io/wootility) &mdash; Non-dev keyboard configurator
+
+I use a Wooting keyboard if I need a normal keyboard layout.
+
+For udev rules, save the following to `/etc/udev/rules.d/70-wooting.rules`:
+
+```shell
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="31e3", MODE:="0660", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="31e3", MODE:="0660", TAG+="uaccess"
+```
+
+Then reload udev rules:
+
+```shell
+sudo udevadm control --reload-rules && sudo udevadm trigger
+```
 
 #### [OpenTabletDriver](https://opentabletdriver.net/) &mdash; Drawing tablet driver
 
