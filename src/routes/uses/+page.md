@@ -91,16 +91,6 @@ brew install --cask utm
 
 Specific versions installed via `dnf` or `brew`. Tkinter packages are also installed for making quick GUIs.
 
-#### [.NET SDK](https://dotnet.microsoft.com/en-us/download) &mdash; For game development
-
-```shell
-# Fedora
-dnf install dotnet-sdk-10.0  # replace 10.0 with whatever latest is
-
-# macOS
-brew install dotnet-sdk
-```
-
 #### [Fast Node Manager](https://github.com/Schniz/fnm) &mdash; Node.js version manager
 
 ```shell
@@ -111,6 +101,22 @@ curl -fsSL https://fnm.vercel.app/install | bash -s -- --skip-shell
 
 # macOS
 brew install fnm  # see docs to manually configure after
+```
+
+#### [Godot](https://godotengine.org/) &mdash; For game development
+
+I use the .NET version of the engine.
+
+I'm not doing anything serious with it at the moment; game development is just a hobby for now.
+
+#### [.NET SDK](https://dotnet.microsoft.com/en-us/download) &mdash; For game development
+
+```shell
+# Fedora
+dnf install dotnet-sdk-10.0  # replace 10.0 with whatever latest is
+
+# macOS
+brew install dotnet-sdk
 ```
 
 #### [Pulumi](https://github.com/pulumi/pulumi) &mdash; IaC (writing Python mostly)
