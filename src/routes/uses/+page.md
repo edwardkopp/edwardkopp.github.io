@@ -42,7 +42,7 @@ sudo udevadm control --reload-rules && sudo udevadm trigger
 
 #### [OpenTabletDriver](https://opentabletdriver.net/) &mdash; Drawing tablet driver
 
-I just download the RPM from their GitHub and click to install.
+I just download the `.rpm` from their GitHub and click it to install.
 
 ```shell
 # After install...
@@ -67,12 +67,14 @@ brew install --cask libreoffice
 
 #### [JetBrains](https://www.jetbrains.com/) &mdash; IDEs
 
-I normally use the [Rider Night](https://plugins.jetbrains.com/plugin/13883-rider-ui-theme-pack/) theme, except in RustRover where I use the default Islands Dark theme.
+I normally use the Islands Dark theme with the [Rider Islands Dark](https://plugins.jetbrains.com/plugin/13883-rider-ui-theme-pack/) color scheme,
+except in RustRover where I use the default Islands Dark color scheme.
 
 AI suggestions are disabled as I prefer the classic completions.
-"Double modifier key shortcuts" under "Advanced Settings" are also disabled, but due to my QMK keymap.
 
-I let JetBrains install git if missing, and unless otherwise noted, I let them install language SDKs, too.
+"Double modifier key shortcuts" under "Advanced Settings" are disabled where I use QMK keyboards.
+
+I let JetBrains install git and configure it if missing, and unless otherwise noted, I let them install language SDKs, too.
 
 ```shell
 # Run after git install
