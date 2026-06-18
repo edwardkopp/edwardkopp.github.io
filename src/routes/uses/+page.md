@@ -1,7 +1,7 @@
 ---
 title: Stuff I Use
 description: Here is a list of some of the software and tools I use for software development.
-date: May 19, 2026
+date: June 17, 2026
 ---
 
 This page is inspired by [uses.tech](https://uses.tech/). 
@@ -89,6 +89,16 @@ brew install --cask utm
 
 Specific versions installed via `dnf` or `brew`. Tkinter packages are also installed for making quick GUIs.
 
+#### [.NET SDK](https://dotnet.microsoft.com/en-us/download) &mdash; For game development
+
+```shell
+# Fedora
+dnf install dotnet-sdk-10.0  # replace 10.0 with whatever latest is
+
+# macOS
+brew install dotnet-sdk
+```
+
 #### [Fast Node Manager](https://github.com/Schniz/fnm) &mdash; Node.js version manager
 
 ```shell
@@ -103,7 +113,12 @@ brew install fnm  # see docs to manually configure after
 
 #### [Pulumi](https://github.com/pulumi/pulumi) &mdash; IaC (writing Python mostly)
 
-I don't locally install this as I prefer exclusive use in CI/CD.
+```shell
+# macOS
+brew install pulumi/tap/pulumi
+```
+
+I prefer to use Pulumi primarily through CI/CD, so I only use the CLI to make new projects.
 
 #### [Zig](https://ziglang.org/) &mdash; Some tools/libraries expect this
 
@@ -115,7 +130,6 @@ dnf install zig
 
 # macOS
 brew install zig
-
 ```
 
 #### [Cargo Lambda](https://www.cargo-lambda.info/) &mdash; For writing AWS Lambdas in Rust
