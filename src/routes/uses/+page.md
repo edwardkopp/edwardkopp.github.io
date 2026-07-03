@@ -1,7 +1,7 @@
 ---
 title: Stuff I Use
 description: Here is a list of some of the software and tools I use for software development.
-date: June 17, 2026
+date: July 2, 2026
 ---
 
 This page is inspired by [uses.tech](https://uses.tech/). 
@@ -126,7 +126,9 @@ brew install dotnet-sdk
 brew install pulumi/tap/pulumi
 ```
 
-I prefer to use Pulumi primarily through CI/CD, so I only use the CLI to make new projects.
+I prefer to use Pulumi primarily through CI/CD, so I rarely need the CLI.
+
+For new projects, templates are found [here](https://github.com/pulumi/templates).
 
 #### [Zig](https://ziglang.org/) &mdash; Some tools/libraries expect this
 
