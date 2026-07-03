@@ -126,9 +126,9 @@ brew install dotnet-sdk
 brew install pulumi/tap/pulumi
 ```
 
-I prefer to use Pulumi primarily through CI/CD, so I rarely need the CLI.
+I prefer to use Pulumi primarily through CI/CD, so I rarely need the CLI locally.
 
-For new projects, templates are found [here](https://github.com/pulumi/templates).
+Instead of using the CLI to generate new projects, I get a template from [here](https://github.com/pulumi/templates).
 
 #### [Zig](https://ziglang.org/) &mdash; Some tools/libraries expect this
 
