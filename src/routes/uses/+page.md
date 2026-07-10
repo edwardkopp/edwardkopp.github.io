@@ -1,7 +1,7 @@
 ---
 title: Stuff I Use
 description: Here is a list of some of the software and tools I use for software development.
-date: July 2, 2026
+date: July 10, 2026
 ---
 
 This page is inspired by [uses.tech](https://uses.tech/). 
@@ -11,6 +11,9 @@ A list of some of the things I use, while also a reference for myself. I will tr
 *If you're looking for what I used to create this website, see the [source code](https://github.com/edwardkopp/edwardkopp.github.io).*
 
 #### [Fedora KDE](https://fedoraproject.org/kde/) &mdash; Desktop OS
+
+In `Region & Language` settings, I changed the `Time` format away from my region's default to `en_SE`
+as I prefer 24-hour time with leading zeros and ISO short date.
 
 [RPM Fusion](https://rpmfusion.org/) is enabled.
 
