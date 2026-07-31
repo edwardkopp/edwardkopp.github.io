@@ -1,10 +1,10 @@
 ---
 title: Stuff I Use
 description: Here is a list of some of the software and tools I use for software development.
-date: July 10, 2026
+date: July 30, 2026
 ---
 
-This page is inspired by [uses.tech](https://uses.tech/). 
+This page is inspired by [uses.tech](https://uses.tech/).
 
 A list of some of the things I use, while also a reference for myself. I will try to keep this page updated.
 
@@ -109,8 +109,6 @@ brew install fnm  # see docs to manually configure after
 #### [Godot](https://godotengine.org/) &mdash; For game development
 
 I use the .NET version of the engine.
-
-I'm not doing anything serious with it at the moment; game development is just a hobby for now.
 
 #### [.NET SDK](https://dotnet.microsoft.com/en-us/download) &mdash; For game development
 
