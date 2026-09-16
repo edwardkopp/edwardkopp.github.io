@@ -35,7 +35,7 @@
 	</a>
 	<nav style="display:inline-flex">
 		<NavIcon href="mailto:{emailLink}" accent="#6d4aff">
-			<span class="ri-mail-fill"></span>
+			<span class="ri-mail-line"></span>
 		</NavIcon>
 		<NavIcon href="https://github.com/edwardkopp" accent="#0fbf3e">
 			<span class="ri-github-fill"></span>
@@ -69,15 +69,7 @@
 		font-family: "Fira Code Variable", monospace;
 		color: var(--main-color);
 		text-decoration: none;
-		margin: 0.25rem;
-		padding-block: 0.5rem;
 		margin-inline-end: 0.5rem;
-		transition: text-shadow 150ms ease-in-out;
-	}
-	.logo:hover {
-		text-shadow:
-			0 0 1rem var(--main-color),
-			0 0 2rem var(--main-color);
 	}
 	header {
 		position: fixed;
@@ -87,8 +79,11 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		padding-block: 0.5rem;
-		padding-block-end: 1.5rem;
+		padding-block: 1rem;
+		/* todo figure out this text shadow */
+		text-shadow:
+			0 0 1rem var(--main-color),
+			0 0 2rem var(--main-color);
 		background: linear-gradient(
 			to bottom,
 			rgba(0, 0, 0, 1) 0%,
