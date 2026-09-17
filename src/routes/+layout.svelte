@@ -69,7 +69,7 @@
 		font-family: "Fira Code Variable", monospace;
 		color: var(--main-color);
 		text-decoration: none;
-		margin-inline-end: 0.5rem;
+		margin-inline: 0.5rem;
 	}
 	header {
 		position: fixed;
