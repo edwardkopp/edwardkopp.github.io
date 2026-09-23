@@ -1,7 +1,7 @@
 ---
 title: Stuff I Use
 description: Here is a list of some of the software and tools I use for software development.
-date: September 22, 2026
+date: September 23, 2026
 ---
 
 This page is inspired by [uses.tech](https://uses.tech/).
