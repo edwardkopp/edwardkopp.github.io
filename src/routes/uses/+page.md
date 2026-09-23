@@ -16,11 +16,17 @@ Under ***System Settings***:
 - ***Region & Language*** &mdash; I changed the ***Time*** format to `ja_JP` instead of my region's default.
 - ***Display & Monitor (Display Configuration)*** &mdash; I uncheck ***Screen Tearing: Allow in fullscreen windows***.
 
-[RPM Fusion](https://rpmfusion.org/) is used.
+[RPM Fusion](https://rpmfusion.org/) is used to install additional codecs:
 
 ```shell
 # After setting up RPM Fusion... 
 dnf install libavcodec-freeworld
+```
+
+A Flatpak override is used to allow my system font rendering settings to apply:
+
+```shell
+flatpak override --user --filesystem=xdg-config/fontconfig:ro
 ```
 
 #### [QMK Firmware](https://qmk.fm/) &mdash; Firmware for dev keyboards
