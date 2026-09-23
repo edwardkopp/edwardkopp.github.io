@@ -2,10 +2,11 @@
 title: About Me
 ---
 
-Hello. I'm Edward Kopp. I'm a self-taught developer. I like building client-side data encryption systems
-and cloud APIs using serverless technologies. Much of my experience involves building cross-platform desktop
-applications in Python that implement these kinds of systems.
+Hello. I'm Edward Kopp. I'm a self-taught developer.
 
+I like building client-side data encryption systems and cloud APIs using serverless technologies.
+Much of my experience involves building cross-platform desktop applications in Python
+that implement these kinds of systems.
 Recently, I've been exploring Rust to build more secure and efficient software while deepening my understanding
 of systems programming and application security.
 
