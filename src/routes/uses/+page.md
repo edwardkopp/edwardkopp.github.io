@@ -1,7 +1,7 @@
 ---
 title: Stuff I Use
 description: Here is a list of some of the software and tools I use for software development.
-date: August 30, 2026
+date: September 22, 2026
 ---
 
 This page is inspired by [uses.tech](https://uses.tech/).
@@ -10,14 +10,13 @@ A list of some of the things I use, while also a reference for myself. I will tr
 
 *If you're looking for what I used to create this website, see the [source code](https://github.com/edwardkopp/edwardkopp.github.io).*
 
-#### [Fedora KDE](https://fedoraproject.org/kde/) &mdash; Desktop OS
+#### [Fedora KDE](https://fedoraproject.org/kde/) &mdash; Main desktop OS
 
-Under *System Settings*:
-- *Region & Language* &mdash; I changed the *Time* format away from my region's default to `en_SE`
-as I prefer 24-hour time with leading zeros and ISO short date.
-- *Display & Monitor (Display Configuration)* &mdash; I uncheck the box for *Screen Tearing: Allow in fullscreen windows*.
+Under ***System Settings***:
+- ***Region & Language*** &mdash; I changed the ***Time*** format to `ja_JP` instead of my region's default.
+- ***Display & Monitor (Display Configuration)*** &mdash; I uncheck ***Screen Tearing: Allow in fullscreen windows***.
 
-[RPM Fusion](https://rpmfusion.org/) is used:
+[RPM Fusion](https://rpmfusion.org/) is used.
 
 ```shell
 # After setting up RPM Fusion... 
@@ -72,12 +71,12 @@ brew install --cask libreoffice
 
 #### [JetBrains](https://www.jetbrains.com/) &mdash; IDEs
 
-I normally use the Islands Dark theme with the [Rider Islands Dark](https://plugins.jetbrains.com/plugin/13883-rider-ui-theme-pack/) color scheme,
+I use the Islands Dark theme with the [Rider Islands Dark](https://plugins.jetbrains.com/plugin/13883-rider-ui-theme-pack/) color scheme,
 except in RustRover where I use the default Islands Dark color scheme.
 
 AI suggestions are disabled as I prefer the classic completions.
 
-"Double modifier key shortcuts" under "Advanced Settings" are disabled where I use QMK keyboards.
+***Double modifier key shortcuts*** under ***Advanced Settings*** are disabled where I use QMK keyboards.
 
 I let JetBrains install git and configure it if missing, and unless otherwise noted, I let them install language SDKs, too.
 
@@ -91,6 +90,10 @@ git config --global init.defaultBranch main
 ```shell
 brew install --cask utm
 ```
+
+#### [GNOME Boxes](https://apps.gnome.org/Boxes/) &mdash; Linux VMs on Fedora
+
+Using Flatpak from [Flathub](https://flathub.org/en/apps/org.gnome.Boxes).
 
 #### [Python](https://www.python.org/) &mdash; My preferred language
 
