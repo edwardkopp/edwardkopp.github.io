@@ -23,7 +23,7 @@ Under ***System Settings***:
 dnf install libavcodec-freeworld
 ```
 
-A Flatpak override is used to allow my system font rendering settings to apply:
+A Flatpak override is used to allow system font rendering settings to apply:
 
 ```shell
 flatpak override --user --filesystem=xdg-config/fontconfig:ro
@@ -99,7 +99,7 @@ brew install --cask utm
 
 #### [GNOME Boxes](https://apps.gnome.org/Boxes/) &mdash; Linux VMs on Fedora
 
-Using Flatpak from [Flathub](https://flathub.org/en/apps/org.gnome.Boxes).
+Using the [Flatpak from Flathub](https://flathub.org/en/apps/org.gnome.Boxes).
 
 #### [Python](https://www.python.org/) &mdash; My preferred language
 
