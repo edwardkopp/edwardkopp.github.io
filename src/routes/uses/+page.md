@@ -1,7 +1,7 @@
 ---
 title: Stuff I Use
 description: Here is a list of some of the software and tools I use for software development.
-date: September 23, 2026
+date: October 13, 2026
 ---
 
 This page is inspired by [uses.tech](https://uses.tech/).
@@ -13,7 +13,6 @@ A list of some of the things I use, while also a reference for myself. I will tr
 #### [Fedora KDE](https://fedoraproject.org/kde/) &mdash; Main desktop OS
 
 Under ***System Settings***:
-- ***Region & Language*** &mdash; I changed the ***Time*** format to `ja_JP` instead of my region's default.
 - ***Display & Monitor (Display Configuration)*** &mdash; I uncheck ***Screen Tearing: Allow in fullscreen windows***.
 
 [RPM Fusion](https://rpmfusion.org/) is used to install additional codecs:
