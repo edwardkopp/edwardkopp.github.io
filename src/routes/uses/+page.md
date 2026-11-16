@@ -90,6 +90,12 @@ I let JetBrains install git and configure it if missing, and unless otherwise no
 git config --global init.defaultBranch main
 ```
 
+**TEMPORARY FIX:** On my Fedora system, subpixel rendering stopped working on 2026.3. Under ***Help | Edit Custom VM Options***, I add the following:
+
+```
+-Dsun.java2d.vulkan=false
+```
+
 #### [UTM](https://mac.getutm.app/) &mdash; Linux VMs on macOS
 
 ```shell
