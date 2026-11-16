@@ -1,7 +1,7 @@
 ---
 title: Stuff I Use
 description: Here is a list of some of the software and tools I use for software development.
-date: October 13, 2026
+date: November 16, 2026
 ---
 
 This page is inspired by [uses.tech](https://uses.tech/).
@@ -13,7 +13,7 @@ A list of some of the things I use, while also a reference for myself. I will tr
 #### [Fedora KDE](https://fedoraproject.org/kde/) &mdash; Main desktop OS
 
 Under ***System Settings***:
-- ***Display & Monitor (Display Configuration)*** &mdash; I uncheck ***Screen Tearing: Allow in fullscreen windows***.
+- ***Display & Monitor (Display Configuration)*** &mdash; Uncheck ***Screen Tearing: Allow in fullscreen windows***.
 
 [RPM Fusion](https://rpmfusion.org/) is used to install additional codecs:
 
@@ -100,9 +100,15 @@ brew install --cask utm
 
 Using the [Flatpak from Flathub](https://flathub.org/en/apps/org.gnome.Boxes).
 
-#### [Python](https://www.python.org/) &mdash; My preferred language
+#### [uv](https://docs.astral.sh/uv/) &mdash; Python management
 
-Specific versions installed via `dnf` or `brew`. Tkinter packages are also installed for making quick GUIs.
+```shell
+# Fedora (if QMK was set up locally for flashing, uv is likely already installed)
+curl -fsSL https://astral.sh/uv/install.sh | sh
+
+# macOS
+brew install uv
+```
 
 #### [Fast Node Manager](https://github.com/Schniz/fnm) &mdash; Node.js version manager
 
@@ -124,7 +130,7 @@ I use the .NET version of the engine.
 
 ```shell
 # Fedora
-dnf install dotnet-sdk-10.0  # replace 10.0 with whatever latest is
+dnf install dotnet-sdk-10.0  # replace 10.0 with desired version
 
 # macOS
 brew install dotnet-sdk
